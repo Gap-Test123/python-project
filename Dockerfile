@@ -1,4 +1,4 @@
 FROM python:3.12-slim
 WORKDIR /app
-COPY . .          # Copies ALL files from current dir to /app
+COPY main.py .          # ← Explicit single file (fixes CI bug)
 CMD ["python", "main.py"]
