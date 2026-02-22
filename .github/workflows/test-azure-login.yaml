@@ -1,4 +1,4 @@
-name: Test Azure Login
+name: testazurelogin
 
 on:
   workflow_dispatch:
